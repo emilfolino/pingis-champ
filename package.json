@@ -1,0 +1,15 @@
+{
+  "name": "pingis-champ",
+  "version": "1.0.0",
+  "description": "Tool to fix pingis matches",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style-min": "sass base.scss style.min.css --style compressed"
+  },
+  "author": "Emil folino",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.15.2"
+  }
+}

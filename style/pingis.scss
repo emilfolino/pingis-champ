@@ -1,0 +1,40 @@
+$singleButton: #0074d9;
+$doubleButton: #ff4136;
+
+.container.match {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.match-selector {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.match-selector a {
+    text-decoration: none;
+    text-align: center;
+    height: 50%;
+    line-height: 50vh;
+    font-size: 4rem;
+}
+
+.single-link {
+    background-color: $singleButton;
+    color: white;
+}
+
+.single-link:hover {
+    background-color: darken($singleButton, 20%);
+}
+
+.double-link {
+    background-color: $doubleButton;
+    color: white;
+}
+
+.double-link:hover {
+    background-color: darken($doubleButton, 20%);
+}
