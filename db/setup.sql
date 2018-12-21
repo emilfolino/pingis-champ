@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS players (
+    name VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS games (
+    player1 VARCHAR(200) NOT NULL,
+    player2 VARCHAR(200) NOT NULL,
+    winner VARCHAR(200) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS sets (
+    gameId INTEGER NOT NULL,
+    score VARCHAR(10),
+    FOREIGN KEY(gameId) REFERENCES games(rowid)
+);

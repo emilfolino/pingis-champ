@@ -1,6 +1,3 @@
-$singleButton: #0074d9;
-$doubleButton: #ff4136;
-
 .container.match {
     height: 100vh;
     box-sizing: border-box;
@@ -22,19 +19,19 @@ $doubleButton: #ff4136;
 }
 
 .single-link {
-    background-color: $singleButton;
+    background-color: $blue;
     color: white;
 }
 
 .single-link:hover {
-    background-color: darken($singleButton, 20%);
+    background-color: darken($blue, 20%);
 }
 
 .double-link {
-    background-color: $doubleButton;
+    background-color: $red;
     color: white;
 }
 
 .double-link:hover {
-    background-color: darken($doubleButton, 20%);
+    background-color: darken($red, 20%);
 }
